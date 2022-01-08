@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    color: white;
+    padding-left: 50px;
+}
+
+.image{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    margin-right: 10vw;
+    width: 100vh;
+    height: 50vh;
+    -webkit-filter: drop-shadow(5px 5px 5px #222 );
+    filter: drop-shadow(5px 5px 5px #222);
+}
+
+.topHeader{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.header{
+    text-transform: uppercase;
+    font-size: 90px;
+    font-weight: 500;
+    margin-top: -25px;
+    padding-top: 0px;
+}
+
+.bigLine{
+    width: 20%;
+    height: 8px;
+    background: #fff;
+    margin-bottom: 40px;
+}
+
+.offer{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.smallLine{
+    margin-top: 2px;
+    width: 24%;
+    height: 4px;
+    background: #fff;
+}
+
+.order{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.shopName{
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
