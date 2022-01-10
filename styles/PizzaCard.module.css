@@ -25,3 +25,22 @@
   text-align: center;
   color: #777;
 }
+
+
+@media screen and (max-width:480px) {
+  .container{
+    width: 100%;
+  }
+
+  .title{
+    font-size: 30px;
+  }
+
+  .prize{
+    font-size: 24px;
+  }
+
+  .desc{
+    font-size: 24px;
+  }
+}
